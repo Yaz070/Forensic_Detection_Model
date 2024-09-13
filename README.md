@@ -1,4 +1,4 @@
-# Forensic_Detection_Model
+## Forensic_Detection_Model
 
 This project implements a YOLO (You Only Look Once) model to detect evidence from digital media 🔍, focusing on forensic analysis 🕵️‍♂️ and crime scene investigation 🚔. The model is trained to detect key types of physical evidence Blood, Handguns, Illegal Substances, Rifles, and Knives (🩸🔫💊🔪) that could be found in media, aiding investigators in identifying critical elements in real-time ⚡. The main goal of the model was to speed up the process of detection along with achieve high accuracy.
 
