@@ -14,10 +14,12 @@ First, we trained the YOLOv8l model for 100 epochs using the initial dataset, [D
 
 To improve performance, we decided to retrain the model using an updated dataset, [Dataset_V2](Dataset/Dataset_V2), with a reduced training duration of 15 epochs. The retraining focused on enhancing the accuracy of specific classes to achieve the desired results. We also applied early stopping to avoid overfitting and incorporated data augmentation to boost the model’s robustness.
 
-confusion matrix
+## confusion matrix
 ![results](https://github.com/user-attachments/assets/be75e974-6e9a-4754-95d0-d0b355fb3d2e)
 ![results-2](https://github.com/user-attachments/assets/de32bc89-d46f-4dd0-b8ea-dc12cedf6f64)
 
 🔸 Training Loss: Both box loss and class loss decreased significantly during training in both datasets, indicating improved model performance. However, the retraining on Dataset_V2 (15 epochs) showed faster convergence compared to the larger Dataset_V1 (100 epochs), especially in classifying objects.
+
 🔸 Validation Loss: Similarly, the validation loss dropped more rapidly with Dataset_V2, reflecting better generalization and model performance on unseen data. The model became more accurate in predicting both object locations (box loss) and classifications (class loss) within fewer epochs.
+
 🔸 Key Insight: The smaller Dataset_V2 led to faster convergence and more efficient learning, improving the detection accuracy for certain classes in a shorter time.
