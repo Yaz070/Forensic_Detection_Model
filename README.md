@@ -10,9 +10,9 @@ To streamline the preparation process, we used Roboflow for image labeling, augm
 ## Training Stage:
 Before initiating the training process, we conducted thorough research to identify the most suitable optimizer for our model. After evaluating several options, we determined that Stochastic Gradient Descent (SGD) was the best choice, as it provided improved generalization and stability throughout training.
 
-First, we trained the YOLOv8l model for 100 epochs using the initial dataset, [Dataset_V1](Forensic_Detection_Model/tree/main/Dataset/Dataset_V1). However, the results did not fully meet our desired objectives in terms of prediction accuracy.
+First, we trained the YOLOv8l model for 100 epochs using the initial dataset, [Dataset_V1](Dataset/Dataset_V1). However, the results did not fully meet our desired objectives in terms of prediction accuracy.
 
-To improve performance, we decided to retrain the model using an updated dataset, [Dataset_V2](Forensic_Detection_Model/tree/main/Dataset/Dataset_V2), with a reduced training duration of 15 epochs. The retraining focused on enhancing the accuracy of specific classes to achieve the desired results. We also applied early stopping to avoid overfitting and incorporated data augmentation to boost the model’s robustness.
+To improve performance, we decided to retrain the model using an updated dataset, [Dataset_V2](Dataset/Dataset_V2), with a reduced training duration of 15 epochs. The retraining focused on enhancing the accuracy of specific classes to achieve the desired results. We also applied early stopping to avoid overfitting and incorporated data augmentation to boost the model’s robustness.
 
 confusion matrix
 ![results](https://github.com/user-attachments/assets/be75e974-6e9a-4754-95d0-d0b355fb3d2e)
