@@ -44,7 +44,7 @@ After training and fine-tuning the model, we tested it on real-world forensic im
     <p>Prediction: Illegal Substances detected 💊</p>
   </div>
     <div align="center">
-    <h3>2️3️⃣ Test Image</h3>
+    <h3>3️⃣ Test Image</h3>
     <img src="https://github.com/user-attachments/assets/15bfc28b-49f3-422e-8175-d8173bb6cea5" alt="Illegal Substances detected" width="600"/>
     <p>Prediction: Rifle 🪖</p>
   </div>
