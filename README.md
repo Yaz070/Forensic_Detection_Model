@@ -66,8 +66,14 @@ After training and fine-tuning the model, we tested it on real-world forensic im
     <img src="https://github.com/user-attachments/assets/db1b9388-86c8-4027-9e2d-798a414de2c4" alt="Illegal Substances detected" width="600"/>
     <p>Prediction: Multiple Predictions 🔫🔪</p>
   </div>
+  </div>
+    <div align="center">
+    <h3>6️⃣ Test Image</h3>
+    <img src="https://github.com/user-attachments/assets/5ce29950-7b98-4f87-8cb4-fdcbcd4af888" alt="Illegal Substances detected"/>
+    <p>Prediction: Multiple Predictions 🔫🔪</p>
+  </div>
 </div>
 
-https://github.com/user-attachments/assets/5ce29950-7b98-4f87-8cb4-fdcbcd4af888
+
 
 
