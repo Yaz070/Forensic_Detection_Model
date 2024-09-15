@@ -22,8 +22,8 @@ To enhance accuracy in specific classes, we retrained the model using a refined 
 ![results](https://github.com/user-attachments/assets/be75e974-6e9a-4754-95d0-d0b355fb3d2e)
 ![results-2](https://github.com/user-attachments/assets/de32bc89-d46f-4dd0-b8ea-dc12cedf6f64)
 
-🔸 Training Loss: Both box loss and class loss decreased significantly during training in both datasets, indicating improved model performance. However, the retraining on Dataset_V2 (15 epochs) showed faster convergence compared to the larger Dataset_V1 (100 epochs), especially in classifying objects.
+🔸 Training Loss: Both box loss and class loss decreased significantly during training. After fine-tuning the model with Dataset_V2 (15 epochs), the losses showed even faster convergence compared to the initial training on Dataset_V1 (100 epochs). This demonstrates that the model became more efficient at classifying objects after fine-tuning.
 
-🔸 Validation Loss: Similarly, the validation loss dropped more rapidly with Dataset_V2, reflecting better generalization and model performance on unseen data. The model became more accurate in predicting both object locations (box loss) and classifications (class loss) within fewer epochs.
+🔸 Validation Loss: Validation loss also dropped more rapidly after fine-tuning with Dataset_V2, indicating improved generalization on unseen data. The fine-tuned model became more accurate in predicting both object locations (box loss) and classifications (class loss) within fewer epochs, thanks to the focused adjustment on specific classes.
 
-🔸 Key Insight: The smaller Dataset_V2 led to faster convergence and more efficient learning, improving the detection accuracy for certain classes in a shorter time.
+🔸 Key Insight: Fine-tuning with Dataset_V2 helped the model achieve faster convergence and better detection accuracy for certain classes. This refinement allowed the model to perform more efficiently.
