@@ -48,7 +48,26 @@ After training and fine-tuning the model, we tested it on real-world forensic im
     <img src="https://github.com/user-attachments/assets/15bfc28b-49f3-422e-8175-d8173bb6cea5" alt="Illegal Substances detected" width="600"/>
     <p>Prediction: Rifle 🪖</p>
   </div>
+  </div>
+    <div align="center">
+    <h3>4️⃣ Test Image</h3>
+    <img src="https://github.com/user-attachments/assets/5f1cbf2d-0b31-448b-adfa-02f448941bab" alt="Illegal Substances detected" width="600"/>
+    <p>Prediction: Handgun 🔫</p>
+  </div>
+  </div>
+    <div align="center">
+    <h3>5️⃣ Test Image</h3>
+    <img src="https://github.com/user-attachments/assets/ca556b43-d1a7-4022-b1f7-99e0c156438c" alt="Illegal Substances detected" width="600"/>
+    <p>Prediction: Knife 🔪</p>
+  </div>
+  </div>
+    <div align="center">
+    <h3>6️⃣ Test Image</h3>
+    <img src="https://github.com/user-attachments/assets/db1b9388-86c8-4027-9e2d-798a414de2c4" alt="Illegal Substances detected" width="600"/>
+    <p>Prediction: Multiple Predictions 🔫🔪</p>
+  </div>
 </div>
+
 
 
 
