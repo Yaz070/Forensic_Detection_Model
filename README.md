@@ -7,12 +7,16 @@ We ensured that our dataset consisted of high quality and diverse images to trai
 
 To streamline the preparation process, we used Roboflow for image labeling, augmentation, and dataset splitting. This platform enabled us to efficiently label the images and split them into training, validation, and testing sets. In total, approximately 28,000 images were used across the different versions of the dataset.
 
-## Training Stage:
-Before initiating the training process, we conducted thorough research to identify the most suitable optimizer for our model. After evaluating several options, we determined that Stochastic Gradient Descent (SGD) was the best choice, as it provided improved generalization and stability throughout training.
+## Training Stage 🏋️‍♂️
+Before starting the training process, we conducted a thorough analysis to determine the best optimizer for our model. After evaluating several options, we concluded that Stochastic Gradient Descent (SGD) was the most suitable choice, offering improved generalization and stability.
 
-First, we trained the YOLOv8l model for 100 epochs using the initial dataset, [Dataset_V1](Dataset/Dataset_V1). However, the results did not fully meet our desired objectives in terms of prediction accuracy.
+1️⃣ Initial Training:
 
-To improve performance, we decided to retrain the model using an updated dataset, [Dataset_V2](Dataset/Dataset_V2), with a reduced training duration of 15 epochs. The retraining focused on enhancing the accuracy of specific classes to achieve the desired results. We also applied early stopping to avoid overfitting and incorporated data augmentation to boost the model’s robustness.
+The first stage of training involved the YOLOv8l model trained on [Dataset_V1](Dataset/Dataset_V1), which consisted of approximately 27,721 images over the course of 100 epochs. While the model showed promising improvements in performance metrics, the results did not fully meet our expected goals, particularly in detecting certain evidence classes.
+
+2️⃣ Retraining:
+
+To enhance accuracy in specific classes, we retrained the model using a refined dataset, [Dataset_V2](Dataset/Dataset_V2), which contained 421 images. The retraining was conducted over a reduced period of 15 epochs to fine-tune the model's performance. This smaller, focused dataset allowed us to target and improve the detection of critical evidence classes. We also incorporated early stopping to prevent overfitting and employed data augmentation techniques to improve the model’s robustness.
 
 ## confusion matrix
 ![results](https://github.com/user-attachments/assets/be75e974-6e9a-4754-95d0-d0b355fb3d2e)
