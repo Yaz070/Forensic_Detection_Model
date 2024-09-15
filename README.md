@@ -7,7 +7,7 @@ We ensured that our dataset consisted of high quality and diverse images to trai
 
 To streamline the preparation process, we used Roboflow for image labeling, augmentation, and dataset splitting. This platform enabled us to efficiently label the images and split them into training, validation, and testing sets. In total, approximately 28,000 images were used across the different versions of the dataset.
 
-## Training Stage 🏋️‍♂️
+## Training Stage
 Before starting the training process, we conducted a thorough analysis to determine the best optimizer for our model. After evaluating several options, we concluded that Stochastic Gradient Descent (SGD) was the most suitable choice, offering improved generalization and stability.
 
 1️⃣ Initial Training:
