@@ -69,7 +69,7 @@ After training and fine-tuning the model, we tested it on real-world forensic im
   </div>
     <div align="center">
     <h3>Test Video</h3>
-    <img src="https://github.com/user-attachments/assets/5ce29950-7b98-4f87-8cb4-fdcbcd4af888" alt="Illegal Substances detected" width="600"/>
+    <img src="https://github.com/user-attachments/assets/5ce29950-7b98-4f87-8cb4-fdcbcd4af888" alt="Illegal Substances detected"/>
     <p>Prediction: Handgun 🔫</p>
   </div>
 </div>
