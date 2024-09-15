@@ -31,3 +31,6 @@ To enhance accuracy in specific classes, we retrained the model using a refined 
 ## Model Predictions on Real Images 🎯
 
 After training and fine-tuning the model, we tested it on real-world forensic images to evaluate its performance in detecting evidence in real scenarios. Below are some examples showcasing the model's predictions:
+![53087486-d5f3-4f0e-a00a-7278fc48e02c](https://github.com/user-attachments/assets/7a5e607a-c4c9-4040-89eb-1d1e7c6513d3)
+Illegal Substances detected 💊
+
