@@ -36,7 +36,7 @@ After training and fine-tuning the model, we tested it on real-world forensic im
   <div>
     <h3>1️⃣ Test Image 1</h3>
     <img src="https://github.com/user-attachments/assets/e91bd8be-0e8a-4b79-869f-74e902f616f9" alt="Blood" width="300"/>
-    <p>**Prediction:** Blood detected 🩸</p>
+    <p>Prediction: Blood detected 🩸</p>
   </div>
   <div>
     <h3>1️⃣ Test Image 2</h3>
