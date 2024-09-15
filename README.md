@@ -68,7 +68,6 @@ After training and fine-tuning the model, we tested it on real-world forensic im
   </div>
 </div>
 
-
-
+https://github.com/user-attachments/assets/5ce29950-7b98-4f87-8cb4-fdcbcd4af888
 
 
