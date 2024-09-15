@@ -32,18 +32,19 @@ To enhance accuracy in specific classes, we retrained the model using a refined 
 
 After training and fine-tuning the model, we tested it on real-world forensic images to evaluate its performance in detecting evidence in real scenarios. Below are some examples showcasing the model's predictions:
 
-<div style="display: flex; gap: 20px; justify-content: flex-start;">
-  <div>
+<div style="display: flex; justify-content: space-between;">
+  <div style="text-align: center;">
     <h3>1️⃣ Test Image 1</h3>
     <img src="https://github.com/user-attachments/assets/e91bd8be-0e8a-4b79-869f-74e902f616f9" alt="Blood" width="300"/>
-    <p>Prediction: Blood detected 🩸</p>
+    <p><strong>Prediction:</strong> Blood detected 🩸</p>
   </div>
-  <div>
-    <h3>1️⃣ Test Image 2</h3>
+  <div style="text-align: center;">
+    <h3>2️⃣ Test Image 2</h3>
     <img src="https://github.com/user-attachments/assets/7a5e607a-c4c9-4040-89eb-1d1e7c6513d3" alt="Illegal Substances detected" width="300"/>
-    <p>Prediction: Illegal Substances detected 💊</p>
+    <p><strong>Prediction:</strong> Illegal Substances detected 💊</p>
   </div>
 </div>
+
 
 
 
