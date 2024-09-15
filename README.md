@@ -27,3 +27,7 @@ To enhance accuracy in specific classes, we retrained the model using a refined 
 🔸 Validation Loss: Validation loss also dropped more rapidly after fine-tuning with Dataset_V2, indicating improved generalization on unseen data. The fine-tuned model became more accurate in predicting both object locations (box loss) and classifications (class loss) within fewer epochs, thanks to the focused adjustment on specific classes.
 
 🔸 Key Insight: Fine-tuning with Dataset_V2 helped the model achieve faster convergence and better detection accuracy for certain classes. This refinement allowed the model to perform more efficiently.
+
+## Model Predictions on Real Images 🎯
+
+After training and fine-tuning the model, we tested it on real-world forensic images to evaluate its performance in detecting evidence in real scenarios. Below are some examples showcasing the model's predictions:
