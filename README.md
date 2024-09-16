@@ -75,6 +75,7 @@ After training and fine-tuning the model, we tested it on real-world forensic im
 </div>
 
 
+[![GitHub contributors](https://img.shields.io/github/contributors/<username>/<repository>.svg)](https://github.com/<Yaz070>/<Forensic_Detection_Model>/graphs/contributors)
 
 
 
