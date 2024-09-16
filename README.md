@@ -45,7 +45,7 @@ After training and fine-tuning the model, we tested it on real-world forensic im
   </div>
     <div align="center">
     <h3>3️⃣ Test Image</h3>
-    <img src="https://github.com/user-attachments/assets/15bfc28b-49f3-422e-8175-d8173bb6cea5" alt="Illegal Substances detected" width="600"/>
+    <img src="https://github.com/user-attachments/assets/1a42068e-5f52-445b-95d8-e805e4be75e5" alt="Illegal Substances detected" width="600"/>
     <p>Prediction: Rifle 🪖</p>
   </div>
   </div>
@@ -73,6 +73,8 @@ After training and fine-tuning the model, we tested it on real-world forensic im
     <p>Prediction: Handgun 🔫</p>
   </div>
 </div>
+
+
 
 
 
